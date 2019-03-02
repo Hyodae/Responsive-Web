@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: Arial;
+    background: url("https://www.pixeden.com/media/k2/galleries/220/006-wood-melamine-subttle-pattern-background-pat.jpg") repeat;
+}
+
+/* 10 - Bottom Menu HTML */
+img {
+    max-width: 100%;
+}
+
+/* Bottom Menu */
+.bottom-menu {
+    font-size: 1em;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.bottom-menu ul a li {
+    color: white;
+    text-decoration: none;
+    float: left;
+    list-style: none;
+    width: 19%;
+    padding: 0.5%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.bottom-menu ul a li.selected {
+    opacity: 1;
+    border-bottom: 2px solid #cc0000;
+}
+.bottom-menu ul a li img {
+    max-height: 1.6em;
+    padding-top: 0.15em;
+}
+
+
+/* 6 - Media Queries */
+@media screen and (max-width:800px) {
+    body {
+/*        background-color: blue; */
+        font-size: 18px;
+    }
+}
+
+/* 5 - Images */
+#imgMain {
+    display: block;
+    max-width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 4 - Flexible Grid Layouts Dont Suck */
+.clsMenuBar {
+    color: white;
+    text-align: center;
+}
+
+.clsButton {
+    background: #777777;
+    width: 24%;
+    margin: 0 .5%;
+    float: left;
+}
+
+/* 3 - Why Percentages Dont Suck */
+#idvWrapper {
+    background-color: white;
+    /*
+    width: 1024px;
+    margin: 5px auto;
+    border: 5px solid red;
+    */
+
+    width: 90%;
+    margin: .4em auto;
+    border: .4em solid red;    
+}
+
+/* 2 - Why Pixels Suck */
+.clsOne {
+    font-size: 1em;
+}
+.clsTwo {
+    font-size: 1.5em;
+}
+.clsThree {
+    font-size: 2.5em;
+}
